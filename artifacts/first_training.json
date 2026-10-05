@@ -1,0 +1,37 @@
+{
+  "symbol": "BTC/USD",
+  "horizon_days": 1,
+  "window_days": 7,
+  "feature_order": [
+    "open",
+    "close",
+    "book_release"
+  ],
+  "baseline_feature_order": [
+    "open",
+    "close"
+  ],
+  "train_samples": 871,
+  "test_samples": 218,
+  "train_target_start": "2022-01-08",
+  "train_target_end": "2024-05-27",
+  "test_target_start": "2024-05-28",
+  "test_target_end": "2024-12-31",
+  "release_events": 3,
+  "train_windows_with_release": 14,
+  "test_windows_with_release": 7,
+  "mae_usd": {
+    "with_releases": 1384.8558412603884,
+    "prices_only": 1380.2002781305516,
+    "last_close": 1320.7568807339449
+  },
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.3.2",
+    "scikit_learn": "1.7.1",
+    "joblib": "1.5.1"
+  },
+  "dataset_sha256": "e2072b8746e58b7273a3191ff69125a0c63538c6d23cdbc826c399d6d922a0d4",
+  "calendar_sha256": "0b1e7c558621214061c889a39b7788c1c51998c1688f9d4bd615c500c409ce69",
+  "interpretation": "Comparação exploratória de previsões; não demonstra causalidade."
+}

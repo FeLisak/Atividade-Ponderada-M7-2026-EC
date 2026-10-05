@@ -1,0 +1,34 @@
+[
+  {
+    "test": "health",
+    "status": 200
+  },
+  {
+    "test": "predict",
+    "status": 200
+  },
+  {
+    "test": "missing_fields",
+    "status": 422
+  },
+  {
+    "test": "zero_open",
+    "status": 422
+  },
+  {
+    "test": "negative_close",
+    "status": 422
+  },
+  {
+    "test": "invalid_release",
+    "status": 422
+  },
+  {
+    "test": "invalid_price_type",
+    "status": 422
+  },
+  {
+    "test": "interactive_docs",
+    "status": 200
+  }
+]

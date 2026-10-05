@@ -1,0 +1,14 @@
+{
+  "1": {
+    "with_releases": 68105.98,
+    "prices_only": 67421.02,
+    "difference_usd": 684.96,
+    "horizon_days": 1
+  },
+  "0": {
+    "with_releases": 67421.4,
+    "prices_only": 67421.02,
+    "difference_usd": 0.38,
+    "horizon_days": 1
+  }
+}

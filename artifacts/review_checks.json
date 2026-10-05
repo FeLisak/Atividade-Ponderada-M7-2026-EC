@@ -1,0 +1,20 @@
+{
+  "training_container": "bitcoin",
+  "inference_container": "bitcoin-revisao",
+  "volume": "modelos-revisao",
+  "fresh_volume": true,
+  "train_samples": 876,
+  "test_samples": 219,
+  "health_status": 200,
+  "docs_status": 200,
+  "predict_status": 200,
+  "invalid_statuses": {
+    "missing_fields": 422,
+    "zero_open": 422,
+    "negative_close": 422,
+    "invalid_release_flag": 422,
+    "text_price": 422
+  },
+  "prediction_matches_saved_models": true,
+  "client_matches_clean_deploy": true
+}

@@ -1,0 +1,23 @@
+{
+  "train_samples": 876,
+  "test_samples": 219,
+  "train_target_start": "2022-01-02",
+  "train_target_end": "2024-05-26",
+  "test_target_start": "2024-05-27",
+  "test_target_end": "2024-12-31",
+  "mae_usd": {
+    "with_releases": 1329.073657059764,
+    "prices_only": 1325.819063416107,
+    "last_close": 1318.849315068493
+  },
+  "rmse_usd": {
+    "with_releases": 1860.753621904668,
+    "prices_only": 1858.5453806079151,
+    "last_close": 1845.2939279056052
+  },
+  "r2": {
+    "with_releases": 0.9837700363264398,
+    "prices_only": 0.9838085351468284,
+    "last_close": 0.9840386027293421
+  }
+}
